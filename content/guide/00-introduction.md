@@ -85,6 +85,8 @@ npm install
 npm run dev
 ```
 
+Navigate to [localhost:5000](http://localhost:5000). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
+
 You can use any git repo you like — these are the 'official' templates:
 
 * [sveltejs/template](https://github.com/sveltejs/template) — this is what you get by downloading from the REPL
