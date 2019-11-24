@@ -42,7 +42,7 @@ svelte.preprocess(input, {
 }).then(preprocessed => {
 	fs.writeFileSync('preprocessed/App.html', preprocessed.toString());
 
-	const { js } = svelte.compile(preprocessed);
+	const { js } = svelte.compile(preprocessed.toString());
 	fs.writeFileSync('compiled/App.js', js.code);
 });
 ```
