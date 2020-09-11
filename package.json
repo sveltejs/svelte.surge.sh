@@ -58,7 +58,7 @@
     "highlight.js": "^9.12.0",
     "locate-character": "^2.0.5",
     "marked": "^0.4.0",
-    "node-fetch": "^2.1.2",
+    "node-fetch": "^2.6.1",
     "passport": "^0.4.0",
     "passport-github": "^1.1.0",
     "rollup": "^0.64.1",
